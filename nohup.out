@@ -1,0 +1,43 @@
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2021-09-15 02:04:54,668] {dagbag.py:496} INFO - Filling up the DagBag from /dev/null
+[2021-09-15 02:04:57 +0000] [16135] [INFO] Starting gunicorn 20.1.0
+[2021-09-15 02:04:57 +0000] [16135] [INFO] Listening at: http://0.0.0.0:8080 (16135)
+[2021-09-15 02:04:57 +0000] [16135] [INFO] Using worker: sync
+[2021-09-15 02:04:57 +0000] [16140] [INFO] Booting worker with pid: 16140
+[2021-09-15 02:04:57 +0000] [16141] [INFO] Booting worker with pid: 16141
+[2021-09-15 02:04:57 +0000] [16142] [INFO] Booting worker with pid: 16142
+[2021-09-15 02:04:57 +0000] [16143] [INFO] Booting worker with pid: 16143
+10.20.70.83 - - [15/Sep/2021:02:05:07 +0000] "GET /static/dist/switch.e97750fdb7423f33656a.css HTTP/1.1" 304 0 "http://10.140.90.41:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+10.20.70.83 - - [15/Sep/2021:02:05:07 +0000] "GET /static/dist/dags.6c090f6b27d152c78e7a.css HTTP/1.1" 304 0 "http://10.140.90.41:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+10.20.70.83 - - [15/Sep/2021:02:05:07 +0000] "GET /home HTTP/1.1" 200 266144 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+10.20.70.83 - - [15/Sep/2021:02:05:07 +0000] "POST /dag_stats HTTP/1.1" 200 11303 "http://10.140.90.41:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+10.20.70.83 - - [15/Sep/2021:02:05:08 +0000] "POST /last_dagruns HTTP/1.1" 200 2 "http://10.140.90.41:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+10.20.70.83 - - [15/Sep/2021:02:05:08 +0000] "GET /static/pin_32.png HTTP/1.1" 200 0 "http://10.140.90.41:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+10.20.70.83 - - [15/Sep/2021:02:05:08 +0000] "POST /blocked HTTP/1.1" 200 2 "http://10.140.90.41:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+10.20.70.83 - - [15/Sep/2021:02:05:08 +0000] "POST /task_stats HTTP/1.1" 200 34568 "http://10.140.90.41:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+10.20.70.83 - - [15/Sep/2021:02:05:30 +0000] "GET /home?status=paused HTTP/1.1" 200 266144 "http://10.140.90.41:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+10.20.70.83 - - [15/Sep/2021:02:05:30 +0000] "GET /static/dist/switch.e97750fdb7423f33656a.css HTTP/1.1" 304 0 "http://10.140.90.41:8080/home?status=paused" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+10.20.70.83 - - [15/Sep/2021:02:05:30 +0000] "GET /static/dist/dags.6c090f6b27d152c78e7a.css HTTP/1.1" 304 0 "http://10.140.90.41:8080/home?status=paused" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+10.20.70.83 - - [15/Sep/2021:02:05:31 +0000] "POST /last_dagruns HTTP/1.1" 200 2 "http://10.140.90.41:8080/home?status=paused" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+10.20.70.83 - - [15/Sep/2021:02:05:31 +0000] "POST /blocked HTTP/1.1" 200 2 "http://10.140.90.41:8080/home?status=paused" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+10.20.70.83 - - [15/Sep/2021:02:05:31 +0000] "POST /dag_stats HTTP/1.1" 200 11303 "http://10.140.90.41:8080/home?status=paused" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+10.20.70.83 - - [15/Sep/2021:02:05:31 +0000] "POST /task_stats HTTP/1.1" 200 34568 "http://10.140.90.41:8080/home?status=paused" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+10.20.70.83 - - [15/Sep/2021:02:05:31 +0000] "POST /paused?is_paused=true&dag_id=example_bash_operator HTTP/1.1" 200 2 "http://10.140.90.41:8080/home?status=paused" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-09-15 02:11:02 +0000] [16135] [INFO] Handling signal: int
+Running the Gunicorn Server with:
+Workers: 4 sync
+Host: 0.0.0.0:8080
+Timeout: 120
+Logfiles: - -
+Access Logformat: 
+=================================================================            
+[2021-09-15 02:11:02,194] {webserver_command.py:431} INFO - Received signal: 2. Closing gunicorn.
+[2021-09-15 02:11:02 +0000] [16141] [INFO] Worker exiting (pid: 16141)
+[2021-09-15 02:11:02 +0000] [16142] [INFO] Worker exiting (pid: 16142)
+[2021-09-15 02:11:02 +0000] [16140] [INFO] Worker exiting (pid: 16140)
+[2021-09-15 02:11:02 +0000] [16143] [INFO] Worker exiting (pid: 16143)
+[2021-09-15 02:11:03 +0000] [16135] [INFO] Shutting down: Master
